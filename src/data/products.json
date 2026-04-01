@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Smart CV Studio",
+    "description": "Build recruiter-ready CVs with guided layouts and AI suggestions.",
+    "price": 11.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["120+ ATS templates", "One-click PDF export", "Role-based suggestions"],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "name": "Cold Email Crafter",
+    "description": "Generate personalized outreach emails for clients, jobs, and partnerships.",
+    "price": 6.49,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Tone presets", "Subject line optimizer", "Copy-ready templates"],
+    "icon": "FaEnvelopeOpenText"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Launch Kit",
+    "description": "Create polished personal portfolios with ready blocks and deployment guides.",
+    "price": 16.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Responsive page blocks", "Custom section presets", "SEO-ready structure"],
+    "icon": "FaGlobe"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Growth Booster",
+    "description": "Improve profile visibility with targeted keywords and headline scoring.",
+    "price": 8.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Keyword analyzer", "Headline generator", "Profile score tracker"],
+    "icon": "FaLinkedin"
+  },
+  {
+    "id": 5,
+    "name": "Interview Simulator Pro",
+    "description": "Practice technical and HR interviews with instant feedback sessions.",
+    "price": 18.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Mock interview rounds", "Answer quality scoring", "Question bank by role"],
+    "icon": "FaUserTie"
+  },
+  {
+    "id": 6,
+    "name": "TaskFlow Career Board",
+    "description": "Organize applications, deadlines, and follow-ups in one visual dashboard.",
+    "price": 7.49,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Kanban pipeline", "Deadline reminders", "Status analytics"],
+    "icon": "FaTasks"
+  }
+]
