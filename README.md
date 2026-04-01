@@ -35,9 +35,7 @@ Users can switch between product view and cart view using a toggle system.
 Toast messages provide feedback for user actions such as adding items, removing items, duplicate attempts, and checkout completion.
 
 ## Links
-
-* GitHub Repository: [Add your repo link here]
-* Live Site: [Add your live link here]
+* Live Site: https://digitools-website1.netlify.app/
 
 ## Local Setup
 
