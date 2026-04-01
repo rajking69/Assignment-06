@@ -41,7 +41,11 @@ const App = () => {
   return (
     <div className="page-canvas">
       <Navbar cartCount={carts.length} />
-      <HeroSection />
+      {activeTab === "products" && (
+        <>
+          <HeroSection />
+        </>
+      )}
       <ProductIntro />
       <TabSwitcher activeTab={activeTab} cartCount={carts.length} onTabChange={setActiveTab} />
 
@@ -53,10 +57,14 @@ const App = () => {
         <CartSection carts={carts} total={total} onRemove={handleRemove} onCheckout={handleCheckout} />
       )}
 
-      <StepsSection />
-      <PricingSection />
-      <CtaSection />
-      <FooterSection />
+      {activeTab === "products" && (
+        <>
+          <StepsSection />
+          <PricingSection />
+          <CtaSection />
+          <FooterSection />
+        </>
+      )}
       <ToastContainer />
     </div>
   );
